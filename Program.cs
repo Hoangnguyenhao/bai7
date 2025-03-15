@@ -1,4 +1,4 @@
-﻿using bai7.Properties.Models.Service;
+using bai7.Properties.Models.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,14 +14,14 @@ namespace bai7
             CarManager manager = new CarManager();
             while (true)
             {
-                Console.WriteLine("\n1. Thêm xe mới");
-                Console.WriteLine("2. Hiển thị danh sách xe");
-                Console.WriteLine("3. Tìm kiếm xe theo tên");
-                Console.WriteLine("4. Xóa xe theo ID");
-                Console.WriteLine("5. Sắp xếp xe theo giá tăng dần");
-                Console.WriteLine("6. Chỉnh sửa thông tin xe");
-                Console.WriteLine("7. Thoát");
-                Console.Write("Chọn chức năng: ");
+                Console.WriteLine("\n1. Them xe moi");
+                Console.WriteLine("2. Hien thi danh sach xe");
+                Console.WriteLine("3. Tim kiem xe theo ten");
+                Console.WriteLine("4. Xoa xe theo ID");
+                Console.WriteLine("5. Sap xep xe theo gia tang dan");
+                Console.WriteLine("6. Chinh sua thong tin xe");
+                Console.WriteLine("7. Thoat");
+                Console.Write("Chon chuc nang: ");
 
                 string choice = Console.ReadLine();
                 switch (choice)
@@ -47,10 +47,11 @@ namespace bai7
                     case "7":
                         return;
                     default:
-                        Console.WriteLine("Lựa chọn không hợp lệ! Hãy chọn lại.");
+                        Console.WriteLine("Lua chon khong hop le! Hay chon lai.");
                         break;
                 }
             }
         }
     }
 }
+
